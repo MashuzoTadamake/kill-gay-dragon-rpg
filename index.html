@@ -14,24 +14,21 @@
 
 
         <div id="stats">
+            <span class="stat">Lv: <strong><span id="levelText">1</span></strong></span>
             <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
-            <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+            <span class="stat">HP: <strong><span id="healthText">100</span></strong></span>
             <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
         </div>
 
-        <div id="controls">
-            <button id="button1">Go to store</button>
-        <button id="button2">Go to cave</button>
-        <button id="button3">Fight dragon</button>
-        </div>
+        <div id="controls" role="group" aria-label="Game actions"></div>
 
-        <div id="monsterStats">
+        <div id="monsterStats" hidden>
             <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
             <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
           </div>
 
 
-          <div id="text">
+          <div id="text" role="log" aria-live="polite" aria-relevant="additions text">
             Welcome to Kill The Gay Dragon RPG. You must defeat the gay dragon that is killing straight dudes(into girls) and causing imbalance in the society.Now you are in Mohammadpur(zero spot). Where do you want to go? Use the buttons above.
         </div>
         

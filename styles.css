@@ -1,9 +1,12 @@
 
 
 body{
-  font-family: Gilroy;
+  font-family: Gilroy, Arial, sans-serif;
   background-image: url('bg.gif');
-  margin-top: 200px;
+  margin: 0;
+  padding: clamp(20px, 12vh, 140px) 12px 30px;
+  min-height: 100vh;
+  box-sizing: border-box;
   background-size: cover;
 }
 
@@ -13,9 +16,8 @@ body{
 
 #game{
   max-width: 500px;
-  max-height: 400px;
   background-color: #F5F0DD;
-  color: #F5F0DD;
+  color: #4f2200;
   margin: 30px auto 0px;
   padding: 10px;
   
@@ -25,7 +27,10 @@ body{
 #text{
   background-color: #ff7e22;
   padding: 10px;
-  color: antiquewhite;
+  color: #341500;
+  white-space: pre-line;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
   font-weight: 500;
   font-size: 20px;
  
@@ -34,6 +39,7 @@ body{
 #controls,
 #stats {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   border: 1px solid #ff7e22;
@@ -42,21 +48,21 @@ body{
 }
 
 #controls{
-  gap: 65px;
+  gap: 8px;
 
 }
 #stats{
-  gap: 65px;
+  gap: 8px 16px;
 }
 
 
 #monsterStats {
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
   border: 1px solid #ff7e22;
   padding: 5px;
   color: #ffffff;
   background-color: #cc1b1b;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -73,8 +79,14 @@ button {
   background-color: #feac32;
   background-image: linear-gradient(#fecc4c, #ffac33);
   border: 3px solid #feac32;
-  font-family: Gilroy;
+  font-family: inherit;
   font-size: 15px;
   font-weight: 600;
+  min-height: 44px;
+  padding: 6px 10px;
   
 }
+
+#monsterStats[hidden] { display: none; }
+button:disabled { cursor: not-allowed; opacity: 0.55; }
+button:focus-visible { outline: 3px solid #4f2200; outline-offset: 2px; }
