@@ -1,0 +1,568 @@
+{
+  "opening": {
+    "version": 1,
+    "player": {
+      "level": 1,
+      "xp": 0,
+      "hp": 100,
+      "maxHp": 100,
+      "attack": 10,
+      "gold": 50
+    },
+    "inventory": {
+      "rusty": 1,
+      "potion": 0
+    },
+    "equipped": "rusty",
+    "tier": 0,
+    "location": "village",
+    "unlocked": [
+      "village"
+    ],
+    "flags": {},
+    "waves": 0,
+    "quests": {
+      "metal": "available",
+      "supplies": "available"
+    },
+    "view": "story",
+    "scene": "prologue",
+    "combat": null,
+    "history": [
+      {
+        "speaker": "The forgotten sovereign",
+        "text": "Long ago, humans, elves, dwarves, and the occasional emotionally available ogre shared this world in relative harmony. Kings argued over borders. Farmers argued over rain. Nobody argued with the mountain.\n\nThen the mountain opened one enormous grey eye.\n\nAfter centuries of slumber, Kashit had awakened. The ancient dragon stretched his wings across the moon, surveyed the fragile tapestry of civilization, and reached a conclusion that would embarrass a cabbage."
+      }
+    ],
+    "log": [],
+    "notice": "Your story begins."
+  },
+  "breakfast": {
+    "version": 1,
+    "player": {
+      "level": 1,
+      "xp": 0,
+      "hp": 100,
+      "maxHp": 100,
+      "attack": 10,
+      "gold": 50
+    },
+    "inventory": {
+      "rusty": 1,
+      "potion": 0
+    },
+    "equipped": "rusty",
+    "tier": 0,
+    "location": "village",
+    "unlocked": [
+      "village"
+    ],
+    "flags": {
+      "breakfast": "teasing"
+    },
+    "waves": 0,
+    "quests": {
+      "metal": "available",
+      "supplies": "available"
+    },
+    "view": "story",
+    "scene": "breakfastTease",
+    "combat": null,
+    "history": [
+      {
+        "speaker": "The forgotten sovereign",
+        "text": "Long ago, humans, elves, dwarves, and the occasional emotionally available ogre shared this world in relative harmony. Kings argued over borders. Farmers argued over rain. Nobody argued with the mountain.\n\nThen the mountain opened one enormous grey eye.\n\nAfter centuries of slumber, Kashit had awakened. The ancient dragon stretched his wings across the moon, surveyed the fragile tapestry of civilization, and reached a conclusion that would embarrass a cabbage."
+      },
+      {
+        "speaker": "Kashit, the Grey Dragon",
+        "text": "“Behold my flawless vision! First: eliminate heterosexual men. Second: establish my homosexual empire. Third: humanity shall cease reproducing, and my reign shall be ETERNAL!”\n\nHis goblin secretary raised a finger, thought about women, families, bisexuality, and several elementary facts of biology, then quietly lowered it. Correcting a dragon was not covered by dental.\n\nKashit was gay. This was not the problem. His belief that everyone else’s life belonged to him was very much the problem."
+      },
+      {
+        "speaker": "The narrator",
+        "text": "OPERATION: MAKE THE WORLD GAY\n\nThe words were unveiled on a banner so enormous that three goblins sustained calligraphy injuries. An empire built on a catastrophic misunderstanding of humanity began to march.\n\nIts first target: Shamepur. A village with twelve chickens, one inn, and absolutely no budget for a dragon-related emergency.\n\nAnd in a small house beside its market, your breakfast was getting cold."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“Finally. I was about to donate your breakfast to someone with a functioning alarm clock.”\n\nHe pushes a bowl toward you. His hair is tied back with a familiar ribbon; there is flour on his sleeve. You have known him since you were both small enough to believe the well contained a wish-granting frog.\n\n“I made too much. That is the only reason you’re getting any. Don’t look at me like that, idiot.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“I will domestically introduce this spoon to your forehead.”\n\nHis ears turn red. You grin. He steals a piece of your bread, then gives it back when he thinks you aren’t looking.\n\n“Eat. It’s going to be a normal day, and I refuse to spend it listening to you complain that you’re hungry.”\n\nThe universe hears “normal day” and cracks its knuckles."
+      }
+    ],
+    "log": [],
+    "notice": ""
+  },
+  "campBattle": {
+    "version": 1,
+    "player": {
+      "level": 1,
+      "xp": 20,
+      "hp": 84,
+      "maxHp": 100,
+      "attack": 10,
+      "gold": 62
+    },
+    "inventory": {
+      "rusty": 1,
+      "potion": 0
+    },
+    "equipped": "rusty",
+    "tier": 0,
+    "location": "camp",
+    "unlocked": [
+      "village",
+      "gate",
+      "forest",
+      "camp"
+    ],
+    "flags": {
+      "breakfast": "teasing",
+      "effect:arm": true,
+      "armed": true,
+      "tutorial": true,
+      "effect:title": true,
+      "title": true,
+      "effect:scout": true,
+      "scout": true,
+      "effect:friendGone": true,
+      "friendGone": true
+    },
+    "waves": 0,
+    "quests": {
+      "metal": "available",
+      "supplies": "available"
+    },
+    "view": "combat",
+    "scene": null,
+    "combat": {
+      "kind": "wave",
+      "kinds": [
+        "goblin",
+        "goblin"
+      ],
+      "index": 0,
+      "hp": 25
+    },
+    "history": [
+      {
+        "speaker": "The forgotten sovereign",
+        "text": "Long ago, humans, elves, dwarves, and the occasional emotionally available ogre shared this world in relative harmony. Kings argued over borders. Farmers argued over rain. Nobody argued with the mountain.\n\nThen the mountain opened one enormous grey eye.\n\nAfter centuries of slumber, Kashit had awakened. The ancient dragon stretched his wings across the moon, surveyed the fragile tapestry of civilization, and reached a conclusion that would embarrass a cabbage."
+      },
+      {
+        "speaker": "Kashit, the Grey Dragon",
+        "text": "“Behold my flawless vision! First: eliminate heterosexual men. Second: establish my homosexual empire. Third: humanity shall cease reproducing, and my reign shall be ETERNAL!”\n\nHis goblin secretary raised a finger, thought about women, families, bisexuality, and several elementary facts of biology, then quietly lowered it. Correcting a dragon was not covered by dental.\n\nKashit was gay. This was not the problem. His belief that everyone else’s life belonged to him was very much the problem."
+      },
+      {
+        "speaker": "The narrator",
+        "text": "OPERATION: MAKE THE WORLD GAY\n\nThe words were unveiled on a banner so enormous that three goblins sustained calligraphy injuries. An empire built on a catastrophic misunderstanding of humanity began to march.\n\nIts first target: Shamepur. A village with twelve chickens, one inn, and absolutely no budget for a dragon-related emergency.\n\nAnd in a small house beside its market, your breakfast was getting cold."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“Finally. I was about to donate your breakfast to someone with a functioning alarm clock.”\n\nHe pushes a bowl toward you. His hair is tied back with a familiar ribbon; there is flour on his sleeve. You have known him since you were both small enough to believe the well contained a wish-granting frog.\n\n“I made too much. That is the only reason you’re getting any. Don’t look at me like that, idiot.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“I will domestically introduce this spoon to your forehead.”\n\nHis ears turn red. You grin. He steals a piece of your bread, then gives it back when he thinks you aren’t looking.\n\n“Eat. It’s going to be a normal day, and I refuse to spend it listening to you complain that you’re hungry.”\n\nThe universe hears “normal day” and cracks its knuckles."
+      },
+      {
+        "speaker": "The village bell",
+        "text": "CLANG. CLANG. CLANG.\n\nA scream from the market. Green shapes flood the eastern road. The bell keeper falls off his stool, climbs back on, and resumes his duties with admirable commitment.\n\nYour friend is already standing. “Go to the chief. I’ll help the families get inside.”\n\nYou hesitate. He catches your sleeve for half a second. “Don’t be an idiot. A living idiot is preferable.”"
+      },
+      {
+        "speaker": "A very official goblin",
+        "text": "A Bangu Goblin corners the merchant behind a barrel.\n\nGoblin: “YOU LIKE WOMEN?!”\nMerchant: “…Yes?”\nGoblin: “TARGET CONFIRMED!”\n\nA woman carrying a toddler steps into the road. The same goblin immediately moves aside. “Madam. Mind the pothole. Terrible infrastructure.”\n\nThey are targeting adult straight men, while deliberately letting women and children pass. The narrator produces a deeply unnecessary scoreboard:\n\nGoblins — 1 | Israel — 0\n\nThe scoreboard is confiscated before anyone can ask a follow-up question."
+      },
+      {
+        "speaker": "Village Chief",
+        "text": "“You! Youth with the suspicious amount of protagonist energy! Take this sword and defend the eastern gate.”\n\nHe hands you a Rusty Sword. A small puff of orange dust lands on your breakfast-stained shirt.\n\n“Is this safe?” you ask.\n“Certainly. I’ve kept it safely in a cupboard for forty years.”\n“I meant for fighting.”\n“Ah. Go find out.”"
+      },
+      {
+        "speaker": "Your first quest",
+        "text": "DEFEND SHAMEPUR\n\nThe chief points to the eastern gate. “Stop the scout there, and the rest may retreat. I’ll organize the villagers.”\n\nYou look down at the blade. You are frightened, hungry, and remarkably underqualified. But your friend is out there helping people, and this is your home.\n\nThe eastern road is now open. Take a breath. Open the map when you’re ready."
+      },
+      {
+        "speaker": "The eastern gate",
+        "text": "The goblin drops its spear, stares at the dent in its helmet, and decides employment elsewhere would be healthier. The remaining attackers scatter after it.\n\nOne fleeing goblin turns long enough to shout:\n\n“THE GREY SOVEREIGN WILL MAKE YOU ALL GAY!”\n\nYou lower your sword. “Is that a threat, a prediction, or a very aggressive recruitment policy?”\n\nFor the moment, Shamepur is safe."
+      },
+      {
+        "speaker": "The people of Shamepur",
+        "text": "The villagers gather beneath the bell. Somebody finds a trumpet. Somebody else confiscates it. The chief produces a ribbon that still says “Best Pumpkin” on the reverse.\n\n“By the authority invested in me by everyone else being busy, I name you—”\n\nCHAD MALE — DEFENDER OF SHAMEPUR\n\nThe crowd cheers. You feel taller. Your friend reaches you at a dead run and punches your shoulder."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“WHAT WERE YOU THINKING?”\n\n“Mostly ‘ow.’”\n\n“You could have died, idiot.” His voice catches. He looks at the sword, then at the blood on your sleeve. “You don’t get to just… do that. You don’t get to leave people wondering whether you’re coming back.”\n\nYou tell him you’re all right. He checks anyway, hands shaking just enough for you to notice. “I wasn’t worried. Your funeral would be inconvenient.”"
+      },
+      {
+        "speaker": "The exhausted scout",
+        "text": "A scout staggers through the crowd, carrying a map and one shoe.\n\n“They’ve built a camp in the Whispering Forest. Three guard posts. Prisoners from the farms. Their commander calls himself Charukola Hobgoblin. He made me critique a painting before I could escape.”\n\n“Was it good?” asks the chief.\n\nThe scout stares at the horizon. “I have seen things.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "The chief asks you to free the prisoners. The scout marks the camp on your map. You can return to Shamepur whenever you need supplies; nobody expects you to do this unprepared.\n\nYour friend quietly puts your ribbon straight.\n\n“Come back,” he says. No insult this time.\n\n“I will.”\n\nThen, softer: “There will be dinner. If you’re late, it’ll be cold. If you don’t come back…” He does not finish.\n\nThe forest waits beyond the road."
+      },
+      {
+        "speaker": "The goblin camp",
+        "text": "You follow the scout’s marks to a rise overlooking the tents. Three guard posts stand between you and the cages. You can fight each post separately and retreat between waves. Cleared posts will stay cleared.\n\nBelow, a goblin tries to light a cooking fire with a copy of the employee handbook. It seems to resist combustion out of spite.\n\nBack in Shamepur, someone sees your friend slip away with a bag of food intended for you. On the forest path, a second patrol is waiting. You do not know this yet."
+      }
+    ],
+    "log": [
+      "One enemy at a time. A killing blow prevents its counterattack.",
+      "You deal 10 damage.",
+      "Bangu Goblin hits for 4."
+    ],
+    "notice": ""
+  },
+  "prisoners": {
+    "version": 1,
+    "player": {
+      "level": 5,
+      "xp": 0,
+      "hp": 180,
+      "maxHp": 180,
+      "attack": 22,
+      "gold": 164
+    },
+    "inventory": {
+      "rusty": 1,
+      "potion": 0,
+      "key": 1
+    },
+    "equipped": "rusty",
+    "tier": 0,
+    "location": "camp",
+    "unlocked": [
+      "village",
+      "gate",
+      "forest",
+      "camp",
+      "ruins"
+    ],
+    "flags": {
+      "breakfast": "teasing",
+      "effect:arm": true,
+      "armed": true,
+      "tutorial": true,
+      "effect:title": true,
+      "title": true,
+      "effect:scout": true,
+      "scout": true,
+      "effect:friendGone": true,
+      "friendGone": true,
+      "effect:rescue": true,
+      "rescued": true
+    },
+    "waves": 3,
+    "quests": {
+      "metal": "available",
+      "supplies": "available"
+    },
+    "view": "story",
+    "scene": "prisoners",
+    "combat": null,
+    "history": [
+      {
+        "speaker": "The forgotten sovereign",
+        "text": "Long ago, humans, elves, dwarves, and the occasional emotionally available ogre shared this world in relative harmony. Kings argued over borders. Farmers argued over rain. Nobody argued with the mountain.\n\nThen the mountain opened one enormous grey eye.\n\nAfter centuries of slumber, Kashit had awakened. The ancient dragon stretched his wings across the moon, surveyed the fragile tapestry of civilization, and reached a conclusion that would embarrass a cabbage."
+      },
+      {
+        "speaker": "Kashit, the Grey Dragon",
+        "text": "“Behold my flawless vision! First: eliminate heterosexual men. Second: establish my homosexual empire. Third: humanity shall cease reproducing, and my reign shall be ETERNAL!”\n\nHis goblin secretary raised a finger, thought about women, families, bisexuality, and several elementary facts of biology, then quietly lowered it. Correcting a dragon was not covered by dental.\n\nKashit was gay. This was not the problem. His belief that everyone else’s life belonged to him was very much the problem."
+      },
+      {
+        "speaker": "The narrator",
+        "text": "OPERATION: MAKE THE WORLD GAY\n\nThe words were unveiled on a banner so enormous that three goblins sustained calligraphy injuries. An empire built on a catastrophic misunderstanding of humanity began to march.\n\nIts first target: Shamepur. A village with twelve chickens, one inn, and absolutely no budget for a dragon-related emergency.\n\nAnd in a small house beside its market, your breakfast was getting cold."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“Finally. I was about to donate your breakfast to someone with a functioning alarm clock.”\n\nHe pushes a bowl toward you. His hair is tied back with a familiar ribbon; there is flour on his sleeve. You have known him since you were both small enough to believe the well contained a wish-granting frog.\n\n“I made too much. That is the only reason you’re getting any. Don’t look at me like that, idiot.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“I will domestically introduce this spoon to your forehead.”\n\nHis ears turn red. You grin. He steals a piece of your bread, then gives it back when he thinks you aren’t looking.\n\n“Eat. It’s going to be a normal day, and I refuse to spend it listening to you complain that you’re hungry.”\n\nThe universe hears “normal day” and cracks its knuckles."
+      },
+      {
+        "speaker": "The village bell",
+        "text": "CLANG. CLANG. CLANG.\n\nA scream from the market. Green shapes flood the eastern road. The bell keeper falls off his stool, climbs back on, and resumes his duties with admirable commitment.\n\nYour friend is already standing. “Go to the chief. I’ll help the families get inside.”\n\nYou hesitate. He catches your sleeve for half a second. “Don’t be an idiot. A living idiot is preferable.”"
+      },
+      {
+        "speaker": "A very official goblin",
+        "text": "A Bangu Goblin corners the merchant behind a barrel.\n\nGoblin: “YOU LIKE WOMEN?!”\nMerchant: “…Yes?”\nGoblin: “TARGET CONFIRMED!”\n\nA woman carrying a toddler steps into the road. The same goblin immediately moves aside. “Madam. Mind the pothole. Terrible infrastructure.”\n\nThey are targeting adult straight men, while deliberately letting women and children pass. The narrator produces a deeply unnecessary scoreboard:\n\nGoblins — 1 | Israel — 0\n\nThe scoreboard is confiscated before anyone can ask a follow-up question."
+      },
+      {
+        "speaker": "Village Chief",
+        "text": "“You! Youth with the suspicious amount of protagonist energy! Take this sword and defend the eastern gate.”\n\nHe hands you a Rusty Sword. A small puff of orange dust lands on your breakfast-stained shirt.\n\n“Is this safe?” you ask.\n“Certainly. I’ve kept it safely in a cupboard for forty years.”\n“I meant for fighting.”\n“Ah. Go find out.”"
+      },
+      {
+        "speaker": "Your first quest",
+        "text": "DEFEND SHAMEPUR\n\nThe chief points to the eastern gate. “Stop the scout there, and the rest may retreat. I’ll organize the villagers.”\n\nYou look down at the blade. You are frightened, hungry, and remarkably underqualified. But your friend is out there helping people, and this is your home.\n\nThe eastern road is now open. Take a breath. Open the map when you’re ready."
+      },
+      {
+        "speaker": "The eastern gate",
+        "text": "The goblin drops its spear, stares at the dent in its helmet, and decides employment elsewhere would be healthier. The remaining attackers scatter after it.\n\nOne fleeing goblin turns long enough to shout:\n\n“THE GREY SOVEREIGN WILL MAKE YOU ALL GAY!”\n\nYou lower your sword. “Is that a threat, a prediction, or a very aggressive recruitment policy?”\n\nFor the moment, Shamepur is safe."
+      },
+      {
+        "speaker": "The people of Shamepur",
+        "text": "The villagers gather beneath the bell. Somebody finds a trumpet. Somebody else confiscates it. The chief produces a ribbon that still says “Best Pumpkin” on the reverse.\n\n“By the authority invested in me by everyone else being busy, I name you—”\n\nCHAD MALE — DEFENDER OF SHAMEPUR\n\nThe crowd cheers. You feel taller. Your friend reaches you at a dead run and punches your shoulder."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“WHAT WERE YOU THINKING?”\n\n“Mostly ‘ow.’”\n\n“You could have died, idiot.” His voice catches. He looks at the sword, then at the blood on your sleeve. “You don’t get to just… do that. You don’t get to leave people wondering whether you’re coming back.”\n\nYou tell him you’re all right. He checks anyway, hands shaking just enough for you to notice. “I wasn’t worried. Your funeral would be inconvenient.”"
+      },
+      {
+        "speaker": "The exhausted scout",
+        "text": "A scout staggers through the crowd, carrying a map and one shoe.\n\n“They’ve built a camp in the Whispering Forest. Three guard posts. Prisoners from the farms. Their commander calls himself Charukola Hobgoblin. He made me critique a painting before I could escape.”\n\n“Was it good?” asks the chief.\n\nThe scout stares at the horizon. “I have seen things.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "The chief asks you to free the prisoners. The scout marks the camp on your map. You can return to Shamepur whenever you need supplies; nobody expects you to do this unprepared.\n\nYour friend quietly puts your ribbon straight.\n\n“Come back,” he says. No insult this time.\n\n“I will.”\n\nThen, softer: “There will be dinner. If you’re late, it’ll be cold. If you don’t come back…” He does not finish.\n\nThe forest waits beyond the road."
+      },
+      {
+        "speaker": "The goblin camp",
+        "text": "You follow the scout’s marks to a rise overlooking the tents. Three guard posts stand between you and the cages. You can fight each post separately and retreat between waves. Cleared posts will stay cleared.\n\nBelow, a goblin tries to light a cooking fire with a copy of the employee handbook. It seems to resist combustion out of spite.\n\nBack in Shamepur, someone sees your friend slip away with a bag of food intended for you. On the forest path, a second patrol is waiting. You do not know this yet."
+      },
+      {
+        "speaker": "The first post falls",
+        "text": "Two Bangu Goblins are down. You cut the alarm rope before it can be rung. Their noticeboard reads: “DAYS WITHOUT A WORKPLACE BONKING: 0.”\n\nThrough the trees, you hear someone calling from the cages. Two more posts remain.\n\nWave 1 is secured. Your rewards and progress are saved. It is safe to go back for supplies."
+      },
+      {
+        "speaker": "The second post falls",
+        "text": "The Hobgoblin’s clipboard cracks beneath your blade. Its last official act is to mark your performance “exceeds expectations.”\n\nBeyond the tents, the final pair of guards argue about who has to feed the prisoners. They have not noticed you yet.\n\nWave 2 is secured. You take a breath, gather your rewards, and check the road behind you."
+      },
+      {
+        "speaker": "The camp is yours",
+        "text": "The last guard collapses into a stack of very ugly commemorative plates. Silence settles over the camp. Then the prisoners begin to call out.\n\nYou recover a Prison Key. Beside the cages, ferns conceal a low cave entrance. Something inside catches the light.\n\nYou can investigate now or free the prisoners first. The cave will remain here until you enter the final prison chamber in the ruins."
+      },
+      {
+        "speaker": "The opened cages",
+        "text": "The key turns. A farmer catches the gate before it can fall on a sleeping baker. You guide the villagers into the light and point them toward the safe road home.\n\n“Was there anyone else?” you ask.\n\nAn older prisoner grips your wrist. “A beautiful young lad. Ribbon in his hair. He kept telling them he had dinner to deliver. They took him to the old ruins.”\n\nThe camp seems suddenly very quiet. You know that ribbon."
+      }
+    ],
+    "log": [
+      "You deal 16 damage.",
+      "Hobgoblin hits for 7.",
+      "You deal 16 damage.",
+      "Hobgoblin hits for 7.",
+      "You deal 16 damage.",
+      "Hobgoblin defeated."
+    ],
+    "notice": "+60 XP · +0 gold · LEVEL 5! Full HP restored. · Prisoners rescued. Main quest: Bring Him Home"
+  },
+  "complete": {
+    "version": 1,
+    "player": {
+      "level": 5,
+      "xp": 0,
+      "hp": 180,
+      "maxHp": 180,
+      "attack": 22,
+      "gold": 224
+    },
+    "inventory": {
+      "rusty": 1,
+      "potion": 0,
+      "key": 1
+    },
+    "equipped": "rusty",
+    "tier": 0,
+    "location": "village",
+    "unlocked": [
+      "village",
+      "gate",
+      "forest",
+      "camp",
+      "ruins"
+    ],
+    "flags": {
+      "breakfast": "teasing",
+      "effect:arm": true,
+      "armed": true,
+      "tutorial": true,
+      "effect:title": true,
+      "title": true,
+      "effect:scout": true,
+      "scout": true,
+      "effect:friendGone": true,
+      "friendGone": true,
+      "effect:rescue": true,
+      "rescued": true,
+      "artOpinion": "honest",
+      "effect:metBoss": true,
+      "metBoss": true,
+      "boss": true,
+      "pointOfNoReturn": true,
+      "reunionChoice": "comfort",
+      "dragonChoice": "attack",
+      "effect:recover": true,
+      "effect:complete": true,
+      "complete": true
+    },
+    "waves": 3,
+    "quests": {
+      "metal": "available",
+      "supplies": "available"
+    },
+    "view": "complete",
+    "scene": null,
+    "combat": null,
+    "history": [
+      {
+        "speaker": "The forgotten sovereign",
+        "text": "Long ago, humans, elves, dwarves, and the occasional emotionally available ogre shared this world in relative harmony. Kings argued over borders. Farmers argued over rain. Nobody argued with the mountain.\n\nThen the mountain opened one enormous grey eye.\n\nAfter centuries of slumber, Kashit had awakened. The ancient dragon stretched his wings across the moon, surveyed the fragile tapestry of civilization, and reached a conclusion that would embarrass a cabbage."
+      },
+      {
+        "speaker": "Kashit, the Grey Dragon",
+        "text": "“Behold my flawless vision! First: eliminate heterosexual men. Second: establish my homosexual empire. Third: humanity shall cease reproducing, and my reign shall be ETERNAL!”\n\nHis goblin secretary raised a finger, thought about women, families, bisexuality, and several elementary facts of biology, then quietly lowered it. Correcting a dragon was not covered by dental.\n\nKashit was gay. This was not the problem. His belief that everyone else’s life belonged to him was very much the problem."
+      },
+      {
+        "speaker": "The narrator",
+        "text": "OPERATION: MAKE THE WORLD GAY\n\nThe words were unveiled on a banner so enormous that three goblins sustained calligraphy injuries. An empire built on a catastrophic misunderstanding of humanity began to march.\n\nIts first target: Shamepur. A village with twelve chickens, one inn, and absolutely no budget for a dragon-related emergency.\n\nAnd in a small house beside its market, your breakfast was getting cold."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“Finally. I was about to donate your breakfast to someone with a functioning alarm clock.”\n\nHe pushes a bowl toward you. His hair is tied back with a familiar ribbon; there is flour on his sleeve. You have known him since you were both small enough to believe the well contained a wish-granting frog.\n\n“I made too much. That is the only reason you’re getting any. Don’t look at me like that, idiot.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“I will domestically introduce this spoon to your forehead.”\n\nHis ears turn red. You grin. He steals a piece of your bread, then gives it back when he thinks you aren’t looking.\n\n“Eat. It’s going to be a normal day, and I refuse to spend it listening to you complain that you’re hungry.”\n\nThe universe hears “normal day” and cracks its knuckles."
+      },
+      {
+        "speaker": "The village bell",
+        "text": "CLANG. CLANG. CLANG.\n\nA scream from the market. Green shapes flood the eastern road. The bell keeper falls off his stool, climbs back on, and resumes his duties with admirable commitment.\n\nYour friend is already standing. “Go to the chief. I’ll help the families get inside.”\n\nYou hesitate. He catches your sleeve for half a second. “Don’t be an idiot. A living idiot is preferable.”"
+      },
+      {
+        "speaker": "A very official goblin",
+        "text": "A Bangu Goblin corners the merchant behind a barrel.\n\nGoblin: “YOU LIKE WOMEN?!”\nMerchant: “…Yes?”\nGoblin: “TARGET CONFIRMED!”\n\nA woman carrying a toddler steps into the road. The same goblin immediately moves aside. “Madam. Mind the pothole. Terrible infrastructure.”\n\nThey are targeting adult straight men, while deliberately letting women and children pass. The narrator produces a deeply unnecessary scoreboard:\n\nGoblins — 1 | Israel — 0\n\nThe scoreboard is confiscated before anyone can ask a follow-up question."
+      },
+      {
+        "speaker": "Village Chief",
+        "text": "“You! Youth with the suspicious amount of protagonist energy! Take this sword and defend the eastern gate.”\n\nHe hands you a Rusty Sword. A small puff of orange dust lands on your breakfast-stained shirt.\n\n“Is this safe?” you ask.\n“Certainly. I’ve kept it safely in a cupboard for forty years.”\n“I meant for fighting.”\n“Ah. Go find out.”"
+      },
+      {
+        "speaker": "Your first quest",
+        "text": "DEFEND SHAMEPUR\n\nThe chief points to the eastern gate. “Stop the scout there, and the rest may retreat. I’ll organize the villagers.”\n\nYou look down at the blade. You are frightened, hungry, and remarkably underqualified. But your friend is out there helping people, and this is your home.\n\nThe eastern road is now open. Take a breath. Open the map when you’re ready."
+      },
+      {
+        "speaker": "The eastern gate",
+        "text": "The goblin drops its spear, stares at the dent in its helmet, and decides employment elsewhere would be healthier. The remaining attackers scatter after it.\n\nOne fleeing goblin turns long enough to shout:\n\n“THE GREY SOVEREIGN WILL MAKE YOU ALL GAY!”\n\nYou lower your sword. “Is that a threat, a prediction, or a very aggressive recruitment policy?”\n\nFor the moment, Shamepur is safe."
+      },
+      {
+        "speaker": "The people of Shamepur",
+        "text": "The villagers gather beneath the bell. Somebody finds a trumpet. Somebody else confiscates it. The chief produces a ribbon that still says “Best Pumpkin” on the reverse.\n\n“By the authority invested in me by everyone else being busy, I name you—”\n\nCHAD MALE — DEFENDER OF SHAMEPUR\n\nThe crowd cheers. You feel taller. Your friend reaches you at a dead run and punches your shoulder."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“WHAT WERE YOU THINKING?”\n\n“Mostly ‘ow.’”\n\n“You could have died, idiot.” His voice catches. He looks at the sword, then at the blood on your sleeve. “You don’t get to just… do that. You don’t get to leave people wondering whether you’re coming back.”\n\nYou tell him you’re all right. He checks anyway, hands shaking just enough for you to notice. “I wasn’t worried. Your funeral would be inconvenient.”"
+      },
+      {
+        "speaker": "The exhausted scout",
+        "text": "A scout staggers through the crowd, carrying a map and one shoe.\n\n“They’ve built a camp in the Whispering Forest. Three guard posts. Prisoners from the farms. Their commander calls himself Charukola Hobgoblin. He made me critique a painting before I could escape.”\n\n“Was it good?” asks the chief.\n\nThe scout stares at the horizon. “I have seen things.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "The chief asks you to free the prisoners. The scout marks the camp on your map. You can return to Shamepur whenever you need supplies; nobody expects you to do this unprepared.\n\nYour friend quietly puts your ribbon straight.\n\n“Come back,” he says. No insult this time.\n\n“I will.”\n\nThen, softer: “There will be dinner. If you’re late, it’ll be cold. If you don’t come back…” He does not finish.\n\nThe forest waits beyond the road."
+      },
+      {
+        "speaker": "The goblin camp",
+        "text": "You follow the scout’s marks to a rise overlooking the tents. Three guard posts stand between you and the cages. You can fight each post separately and retreat between waves. Cleared posts will stay cleared.\n\nBelow, a goblin tries to light a cooking fire with a copy of the employee handbook. It seems to resist combustion out of spite.\n\nBack in Shamepur, someone sees your friend slip away with a bag of food intended for you. On the forest path, a second patrol is waiting. You do not know this yet."
+      },
+      {
+        "speaker": "The first post falls",
+        "text": "Two Bangu Goblins are down. You cut the alarm rope before it can be rung. Their noticeboard reads: “DAYS WITHOUT A WORKPLACE BONKING: 0.”\n\nThrough the trees, you hear someone calling from the cages. Two more posts remain.\n\nWave 1 is secured. Your rewards and progress are saved. It is safe to go back for supplies."
+      },
+      {
+        "speaker": "The second post falls",
+        "text": "The Hobgoblin’s clipboard cracks beneath your blade. Its last official act is to mark your performance “exceeds expectations.”\n\nBeyond the tents, the final pair of guards argue about who has to feed the prisoners. They have not noticed you yet.\n\nWave 2 is secured. You take a breath, gather your rewards, and check the road behind you."
+      },
+      {
+        "speaker": "The camp is yours",
+        "text": "The last guard collapses into a stack of very ugly commemorative plates. Silence settles over the camp. Then the prisoners begin to call out.\n\nYou recover a Prison Key. Beside the cages, ferns conceal a low cave entrance. Something inside catches the light.\n\nYou can investigate now or free the prisoners first. The cave will remain here until you enter the final prison chamber in the ruins."
+      },
+      {
+        "speaker": "The opened cages",
+        "text": "The key turns. A farmer catches the gate before it can fall on a sleeping baker. You guide the villagers into the light and point them toward the safe road home.\n\n“Was there anyone else?” you ask.\n\nAn older prisoner grips your wrist. “A beautiful young lad. Ribbon in his hair. He kept telling them he had dinner to deliver. They took him to the old ruins.”\n\nThe camp seems suddenly very quiet. You know that ribbon."
+      },
+      {
+        "speaker": "The hero",
+        "text": "“How long ago?”\n\n“Not long. He tried to distract them so a child could run. Called the commander an overdecorated cabbage.”\n\nYou close your eyes. Of course he did. Of course he came looking for you.\n\nThe prisoner presses a scrap of cloth into your hand: a torn corner of the bag he carried. It smells of home.\n\n“Hold on,” you say, to someone who cannot hear you. “I’m coming.”\n\nThe Ancient Ruins are now unlocked. Rescuing the villagers awards 60 XP—enough to reach level 5 through the main quest alone."
+      },
+      {
+        "speaker": "Charukola Hobgoblin",
+        "text": "You descend into a gallery of crooked canvases. Every painting depicts something either screaming or possibly a pear. The distinction seems intentional.\n\nAt its center stands a Hobgoblin wearing seven scarves, a feathered beret, and the expression of someone who has never received honest feedback.\n\n“WELCOME TO MY EXHIBITION! I AM CHARUKOLA, VISIONARY OF THE GREY SOVEREIGN! WHAT DO YOU THINK OF MY MASTERPIECE?!”"
+      },
+      {
+        "speaker": "Charukola Hobgoblin",
+        "text": "“THAT GOAT REPRESENTS THE FRAGILITY OF EMPIRE!”\n\n“It has six legs.”\n\n“SO DOES MY PAIN!”\n\nYou draw your sword. “Where is my friend?”\n\nThe painter’s smile thins. “In the chamber behind me. Patrons only.”\n\nHe lifts a palette the size of a shield. “YOU HAVE CHOSEN DEATH.”"
+      },
+      {
+        "speaker": "The last review",
+        "text": "The palette shatters. Charukola sinks against his least convincing landscape.\n\n“You think this is victory? I serve Kashit… the Grey Sovereign. He will turn your entire world into his masterpiece.”\n\n“Does he paint better than you?”\n\nFor the first time, the artist looks genuinely wounded. Then his beret tips over his eyes, and he moves no more.\n\nBehind the gallery, someone pounds on a locked door.\n\nYou can return to prepare or open the prison chamber. Opening it begins the chapter’s final sequence; finish any exploration first."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "The lock gives. The door opens.\n\n“YOU ABSOLUTE MORON!”\n\nHe hits your chest with both hands—and then he is holding you so tightly you can barely breathe. You drop the key. For a moment, neither of you speaks.\n\n“Miss me?” you manage.\n\n“I THOUGHT YOU WERE DEAD, IDIOT!”\n\nHis forehead rests against your shoulder. The bravado has fallen away. He is shaking.\n\n“I’m here,” you say. “I’m taking you home.”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "You put your arms around him. The ruined gallery can wait. The whole world can wait for a few seconds.\n\n“I told you to come back,” he whispers.\n\n“I know.”\n\n“I wasn’t finished being angry with you.”\n\n“I know.”\n\nHe lets out a broken little laugh. “Good. Then don’t go anywhere.”\n\nTogether, you turn toward the stairs."
+      },
+      {
+        "speaker": "Below the ruins",
+        "text": "The first tremor knocks a painting off the wall. The second splits the stairs.\n\nYou push your friend away from the falling stones—but the floor opens beneath both of you. The world becomes dust and shouting and the desperate grip of his hand.\n\nYou hit a slope of rubble and slide into darkness.\n\nA vast chamber opens below the ruins. Columns disappear into a ceiling you cannot see. Something the size of a fortress shifts in the shadows.\n\nA slow clap echoes through the dark."
+      },
+      {
+        "speaker": "Kashit",
+        "text": "Grey scales catch the firelight. Wings unfold from wall to wall. His claws score trenches in ancient stone as he rises, and suddenly the chamber seems far too small for the thing inside it.\n\n“AT LAST. AN AUDIENCE WITH CHEEKBONES.”\n\nHis voice presses against your ribs. Every instinct in your body says to run.\n\n“BEHOLD! THE GREY SOVEREIGN! SCOURGE OF HETEROSEXUALITY! THE HOMOSEXUAL EMPEROR!”\n\nHe waits.\n\nSomewhere behind a pillar, a terrified goblin rings a tiny applause bell."
+      },
+      {
+        "speaker": "The Grey Sovereign",
+        "text": "“You dismantled my camp. You ruined my painter. Do you have ANY IDEA how difficult it is to find an artist who accepts exposure as payment?”\n\nYou step in front of your friend. “Let us leave.”\n\nKashit inhales. The chamber grows warmer. Then his eyes slide past you.\n\n“Oh? And who is this exquisite young lady?”\n\nYour friend stares. “I’M A GUY!”\n\n“…A guy?”\n\nThe dragon freezes. Dust settles. The tiny applause bell stops.\n\n“EVEN BETTER!”"
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“No,” your friend says, before Kashit can finish smiling.\n\n“BUT I HAVE NOT YET OFFERED—”\n\n“No.”\n\n“A THRONE! JEWELS! THE TITLE OF ROYAL CONSORT!”\n\n“I said no. That should be enough.”\n\nYou raise your sword. Kashit looks between you. “Ah. A rival suitor? How deliciously provincial.”\n\n“We’re friends,” you say together. Your friend turns pink.\n\n“Friends,” Kashit repeats, with the confidence of a creature who has learned nothing correct about human relationships in eight hundred years."
+      },
+      {
+        "speaker": "An impossible opponent",
+        "text": "Kashit lowers his enormous head. One eye is wider than your shield arm.\n\n“Stand aside. I am accustomed to getting what I want.”\n\nYour friend’s hand tightens around yours. You know, with sickening clarity, that this is no ordinary battle. Your sword cannot kill a mountain. But you can decide what kind of person stands before one.\n\nThis is a cinematic confrontation. Your potions and equipment will not be consumed."
+      },
+      {
+        "speaker": "The hero",
+        "text": "You charge. Your blade strikes a scale with the magnificent sound of a spoon hitting a church bell.\n\nKashit looks down. “Was that the attack, or are we still rehearsing?”\n\nA flick of one claw sends you across the stone. You try to rise. Your body refuses.\n\nYour friend screams your name."
+      },
+      {
+        "speaker": "Childhood Friend",
+        "text": "“Stop! Please. He can’t even stand.”\n\nYour friend is between you and the dragon now. You try to tell him to run. It comes out as a breath.\n\nKashit considers you as one might consider a broken cup. “His life, then. In exchange for your company.”\n\n“No,” you whisper.\n\nYour friend looks down at you. His expression is terrified, furious, and heartbreakingly decided.\n\n“You let him live. You leave this village alone. And I’ll go.”\n\nThere is no freedom in this bargain. Only a life held hostage."
+      },
+      {
+        "speaker": "A promise in the dark",
+        "text": "Kashit smiles. “A royal agreement.”\n\nYour friend kneels one last time. He brushes the dust from your face with hands that will not stop shaking.\n\n“Don’t follow yet,” he whispers. “Get stronger. For once in your life, think before you do something stupid.”\n\nYou try to catch his sleeve. Your fingers close on air.\n\nGrey wings blot out the fire. The roar takes the rest of the world with it. When the dust falls, they are gone.\n\nYou reach toward the empty space where he stood.\n\nThen everything goes black."
+      },
+      {
+        "speaker": "Three days later",
+        "text": "You wake to the smell of bitter medicine and the sound of the chief arguing with a kettle.\n\nThe ceiling is familiar. Shamepur. His house. Bandages pull at your ribs when you try to sit.\n\n“Easy,” he says, suddenly quiet. “A search party found you near the ruins. We thought…”\n\n“My friend.”\n\nThe chief looks down.\n\nYou know before he answers. You remember anyway: the hand you could not hold, the bargain you could not stop."
+      },
+      {
+        "speaker": "The hero",
+        "text": "“I promised I’d bring him home.”\n\nThe chief sets the medicine beside you. “You brought our prisoners home.”\n\n“Not him.”\n\nFor once, he does not have a joke ready. Outside, the market opens. Bread is baked. Someone repairs the eastern gate. Life continues with a cruelty that feels almost personal.\n\nThe empty chair beside the bed has a clean breakfast bowl on it.\n\nYou turn away before the chief can see your face."
+      },
+      {
+        "speaker": "Village Chief",
+        "text": "That evening, the chief returns with a book so old it seems personally offended by being opened.\n\n“THE FOUR PILLARS OF THE DRAGON SOVEREIGN,” he reads. “Four powerful servants. Four foundations of Kashit’s dominion. If the legends are true, you must break their power before you can face him.”\n\nYou look at the faded ink. A road longer than any you have traveled waits beyond this room.\n\n“I can’t promise it will be enough,” he says. “But it is a beginning.”\n\nFor the first time since waking, you feel something other than helplessness."
+      },
+      {
+        "speaker": "The hero",
+        "text": "At dawn, you fasten your sword and stand beneath the autumn trees. The village looks smaller than it did three days ago. More precious, too.\n\nThe chief waits by the road. “What will you do?”\n\nYou think of a bowl with the mushrooms picked out. A ribbon. A hand in the dark.\n\n“I’m going to kill that gay dragon.”\n\nThe chief nods. “Then come back alive. Both of you.”\n\nThis time, you intend to keep your promise."
+      }
+    ],
+    "log": [
+      "You deal 22 damage.",
+      "Charukola Hobgoblin hits for 14.",
+      "You deal 22 damage.",
+      "Charukola Hobgoblin hits for 14.",
+      "You deal 22 damage.",
+      "Charukola Hobgoblin defeated."
+    ],
+    "notice": ""
+  }
+}

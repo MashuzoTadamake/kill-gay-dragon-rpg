@@ -1,0 +1,6 @@
+{
+  "name": "kill-the-gay-dragon-rpg",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test --test-isolation=none tests/game.test.js", "start": "python3 -m http.server 8000" }
+}
